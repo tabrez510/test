@@ -1,0 +1,100 @@
+.banner-container{
+    /* position: absolute; */
+    width: 1480px;
+    height: 622px;
+    top: 92px;
+    background: linear-gradient(90deg, #96E9FB 0%, #ABECD6 100%);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 0px 206px;
+    margin: 20px;
+}
+
+.left-banner{
+    /* background-color: azure; */
+    width: 50%;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+
+}
+
+.right-banner{
+    /* background-color: bisque; */
+    width: 50%;
+}
+
+.summer{
+    width: 122px;
+    height: 24px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #2A7CC7;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.new-collection{
+    width: 548px;
+    height: 80px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.content{
+    width: 376px;
+    height: 60px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.shop-now-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 15px 40px; */
+    gap: 10px;
+    width: 221px;
+    /* height: 50px; */
+    background-color: #23A6F0;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.button-text{
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    /* line-height: 32px; */
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}

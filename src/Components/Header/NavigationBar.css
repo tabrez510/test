@@ -1,0 +1,52 @@
+
+.navigation-bar{
+    padding: 0 15px 0 15px;
+}
+
+.navigation-brand{
+    color: #252B42;
+
+}
+
+.navigation-conatiner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-list-middle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    text-decoration: none;
+
+    /* background-color: green; */
+    
+}
+
+.navigation-list-middle a{
+    text-decoration: none;
+    color: #737373;
+}
+
+.login-registration-name{
+    color: #23A6F0;
+
+}
+
+.navigation-list-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    /* padding: 10px; */
+}
+
+.utility-icons{
+    cursor: pointer;
+}
+
+.count-plus{
+    color: #23A6F0;
+}
