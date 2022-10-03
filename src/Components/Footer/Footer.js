@@ -3,29 +3,6 @@ import './Footer.css'
 
 
 function Footer() {
-  const[email, setEmail] = useState('')
- 
-  const handleChange = (e) =>{
-    setEmail(e.target.value)
-  }
-  const handleSubmit = (e) =>{
-    e.preventDefault()
-    fetch('https://module-7-test-8f1db-default-rtdb.asia-southeast1.firebasedatabase.app/emails.json',
-     {
-      method: 'POST',
-      headers: {'Content-Type': 'application/json'},
-      body: JSON.stringify({
-        emailId:email
-      })
-     }
-  )
-  .then(res =>res.json())
-  .then(data =>{
-    console.log('data:' , data)
-  })
-  setEmail('')
-}
-
   return (
     <div className="main-footer-container">
       <div className="footer-1">
@@ -110,8 +87,8 @@ function Footer() {
           </div>
           <div className="footer-section-column">
             <h5 className="footer-header"> Get In Touch</h5>
-            <form onSubmit={handleSubmit}>
-            <input type='text' placeholder="Your Email" value={email} onChange={handleChange} className="email-input"></input>
+            <form>
+            <input type='text' placeholder="Your Email" className="email-input"></input>
             <button className="subscribe-btn">Subscribe</button>
             <p className="about-us">Lorem impsum dolor amit</p>
             </form>
